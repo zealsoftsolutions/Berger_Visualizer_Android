@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="45dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/header_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/scroll_top_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.26"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/scroll_bottom_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98"/>
+
+    <ImageView
+        android:id="@+id/header_image"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:padding="@dimen/nav_header_vertical_spacing"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/berger_logo_flat"
+        app:tint="@color/white"
+        app:layout_constraintTop_toTopOf="@id/header_guideline"
+        app:layout_constraintBottom_toBottomOf="@id/header_guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/scroll_top_guideline"
+        app:layout_constraintBottom_toTopOf="@id/footer_image"
+        android:paddingBottom="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/header"
+                layout="@layout/nav_header_main"
+                android:visibility="gone"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/menu_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <View
+                android:id="@+id/about_us_divider"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                app:layout_constraintTop_toBottomOf="@id/menu_recycler"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/themeCenterColorBerger" />
+
+            <TextView
+                android:id="@+id/about_us_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/menu_recycler"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="About Berger"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/about_us_menu_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/about_us_label"
+                android:layout_marginTop="5dp"/>
+
+            <View
+                android:id="@+id/follow_us_divider"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                app:layout_constraintTop_toBottomOf="@id/about_us_menu_recycler"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/themeCenterColorBerger" />
+
+            <TextView
+                android:id="@+id/social_bar_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/about_us_menu_recycler"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Follow Us on"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/social_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/social_bar_label"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/web"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="2:1"
+                    android:src="@drawable/icon_social_web"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/fb"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/fb"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="2:1"
+                    android:src="@drawable/icon_social_fb"
+                    app:layout_constraintStart_toEndOf="@id/web"
+                    app:layout_constraintEnd_toStartOf="@id/twitter"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="2:1"
+                    android:src="@drawable/icon_social_twitter"
+                    app:layout_constraintStart_toEndOf="@id/fb"
+                    app:layout_constraintEnd_toStartOf="@id/insta"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/insta"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="2:1"
+                    android:src="@drawable/icon_social_insta"
+                    app:layout_constraintStart_toEndOf="@id/twitter"
+                    app:layout_constraintEnd_toStartOf="@id/pint"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/pint"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="2:1"
+                    android:src="@drawable/icon_social_pint"
+                    app:layout_constraintStart_toEndOf="@id/insta"
+                    app:layout_constraintEnd_toStartOf="@id/google"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/google"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="2:1"
+                    android:src="@drawable/icon_social_google"
+                    app:layout_constraintStart_toEndOf="@id/pint"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:visibility="gone"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toTopOf="@id/footer_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/themeCenterColorBerger"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/footer_image"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:padding="@dimen/nav_header_vertical_spacing"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/berger_logo_flat"
+        app:layout_constraintBottom_toBottomOf="@id/scroll_bottom_guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

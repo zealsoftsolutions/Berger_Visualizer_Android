@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar_home"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/top_margin_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="10dp"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/bottom_margin_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="10dp"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/start_margin_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="10dp"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/end_margin_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="10dp"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/first_view_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.32"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/second_view_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.45"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/third_view_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.80"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/left_view_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.35"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/right_view_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.65"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/visualizer_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"
+            app:cardElevation="@dimen/elevation_home_card"
+            app:cardCornerRadius="@dimen/corner_radius_card_home"
+            app:layout_constraintBottom_toTopOf="@id/categories"
+            app:layout_constraintTop_toTopOf="@id/top_margin_guideline"
+            app:layout_constraintStart_toStartOf="@id/start_margin_guideline"
+            app:layout_constraintEnd_toEndOf="@id/end_margin_guideline">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/visualizer_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/background_card_visualizer"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/visualizer_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:gravity="end"
+                    android:text="@string/home_label_card_visualizer"
+                    android:textSize="@dimen/heading_text_size_home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/textShadowColorHome"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:paddingStart="@dimen/padding_text_start_home"
+                    android:paddingBottom="@dimen/padding_text_home"
+                    android:paddingEnd="@dimen/padding_text_end_home"
+                    android:paddingTop="@dimen/padding_text_home"
+                    android:background="@color/cardTextBackgroundColor"
+                    android:visibility="visible"/>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/first_view_guideline"
+            app:layout_constraintStart_toEndOf="@id/start_margin_guideline"
+            android:padding="2dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/view_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View All"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/first_view_guideline"
+            app:layout_constraintEnd_toStartOf="@id/end_margin_guideline"
+            android:padding="2dp"
+            android:visibility="gone"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/colors_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            app:cardElevation="@dimen/elevation_home_card"
+            app:cardCornerRadius="@dimen/corner_radius_card_home"
+            app:layout_constraintBottom_toBottomOf="@id/second_view_guideline"
+            app:layout_constraintTop_toBottomOf="@id/first_view_guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/calculator_card">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/colors_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_card_colors">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/background_card_colors"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/colors_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:gravity="center"
+                    android:text="@string/home_label_card_colors"
+                    android:textSize="@dimen/heading_text_size_home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/textShadowColorHome"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:paddingStart="@dimen/padding_text_start_end_home"
+                    android:paddingEnd="@dimen/padding_text_start_end_home"
+                    android:background="@color/cardTextBackgroundColor"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/products_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            app:cardElevation="@dimen/elevation_home_card"
+            app:cardCornerRadius="@dimen/corner_radius_card_home"
+            app:layout_constraintBottom_toBottomOf="@id/second_view_guideline"
+            app:layout_constraintTop_toBottomOf="@id/first_view_guideline"
+            app:layout_constraintStart_toEndOf="@id/calculator_card"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/products_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/background_card_products"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/products_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:gravity="center"
+                    android:text="@string/home_label_card_products"
+                    android:textSize="@dimen/heading_text_size_home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/textShadowColorHome"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:paddingStart="@dimen/padding_text_start_end_home"
+                    android:paddingEnd="@dimen/padding_text_start_end_home"
+                    android:background="@color/cardTextBackgroundColor"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/calculator_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            app:cardElevation="@dimen/elevation_home_card"
+            app:cardCornerRadius="@dimen/corner_radius_card_home"
+            app:layout_constraintBottom_toBottomOf="@id/second_view_guideline"
+            app:layout_constraintTop_toBottomOf="@id/first_view_guideline"
+            app:layout_constraintStart_toEndOf="@id/colors_card"
+            app:layout_constraintEnd_toStartOf="@id/products_card">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/calculator_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/background_card_calculate_paint"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/calculator_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:gravity="center"
+                    android:text="@string/home_label_card_calculator"
+                    android:textSize="@dimen/heading_text_size_home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/textShadowColorHome"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:paddingStart="@dimen/padding_text_start_end_home"
+                    android:paddingEnd="@dimen/padding_text_start_end_home"
+                    android:background="@color/cardTextBackgroundColor" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/album_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardElevation="@dimen/elevation_home_card"
+            app:cardCornerRadius="@dimen/corner_radius_card_home"
+            app:layout_constraintBottom_toBottomOf="@id/third_view_guideline"
+            app:layout_constraintTop_toBottomOf="@id/second_view_guideline"
+            app:layout_constraintStart_toEndOf="@id/inspirational_ideas_card"
+            app:layout_constraintEnd_toEndOf="@id/end_margin_guideline">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/album_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/background_card_my_ideas"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/album_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="@string/home_label_card_album"
+                    android:textSize="@dimen/heading_text_size_home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/textShadowColorHome"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:paddingStart="@dimen/padding_text_start_home"
+                    android:paddingBottom="@dimen/padding_text_home"
+                    android:paddingEnd="@dimen/padding_text_end_home"
+                    android:paddingTop="@dimen/padding_text_home"
+                    android:background="@color/cardTextBackgroundColor"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/about_us_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            app:cardElevation="@dimen/elevation_home_card"
+            app:cardCornerRadius="@dimen/corner_radius_card_home"
+            app:layout_constraintBottom_toTopOf="@id/contact_us_card"
+            app:layout_constraintTop_toBottomOf="@id/second_view_guideline"
+            app:layout_constraintStart_toStartOf="@id/start_margin_guideline"
+            app:layout_constraintEnd_toEndOf="@id/right_view_guideline"
+            android:visibility="gone">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/about_us_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/about_us_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="@string/home_label_card_about_us"
+                    android:textSize="@dimen/heading_text_size_home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/textShadowColorHome"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:paddingStart="@dimen/padding_text_start_home"
+                    android:paddingBottom="@dimen/padding_text_home"
+                    android:paddingEnd="@dimen/padding_text_end_home"
+                    android:paddingTop="@dimen/padding_text_home"
+                    android:background="@color/cardTextBackgroundColor"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/inspirational_ideas_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardElevation="@dimen/elevation_home_card"
+            app:cardCornerRadius="@dimen/corner_radius_card_home"
+            app:layout_constraintBottom_toTopOf="@id/third_view_guideline"
+            app:layout_constraintTop_toBottomOf="@id/second_view_guideline"
+            app:layout_constraintStart_toStartOf="@id/start_margin_guideline"
+            app:layout_constraintEnd_toStartOf="@id/album_card">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/inspirational_ideas_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/background_card_inspirational"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/inspirational_ideas_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="@string/home_label_card_inspirational"
+                    android:textSize="@dimen/heading_text_size_home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/textShadowColorHome"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:paddingStart="@dimen/padding_text_start_home"
+                    android:paddingBottom="@dimen/padding_text_home"
+                    android:paddingEnd="@dimen/padding_text_end_home"
+                    android:paddingTop="@dimen/padding_text_home"
+                    android:background="@color/cardTextBackgroundColor"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/contact_us_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            app:cardElevation="@dimen/elevation_home_card"
+            app:cardCornerRadius="@dimen/corner_radius_card_home"
+            app:layout_constraintBottom_toBottomOf="@id/bottom_margin_guideline"
+            app:layout_constraintTop_toBottomOf="@id/third_view_guideline"
+            app:layout_constraintStart_toStartOf="@id/start_margin_guideline"
+            app:layout_constraintEnd_toEndOf="@id/end_margin_guideline">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contact_us_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/background_card_contact_us"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/contact_us_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:gravity="center"
+                    android:text="@string/home_label_card_contact_us"
+                    android:textSize="@dimen/heading_text_size_home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/textShadowColorHome"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:paddingStart="@dimen/padding_text_start_home"
+                    android:paddingBottom="@dimen/padding_text_home"
+                    android:paddingEnd="@dimen/padding_text_end_home"
+                    android:paddingTop="@dimen/padding_text_home"
+                    android:background="@color/cardTextBackgroundColor"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="themeGreenColor">#492600</color>
+    <color name="themeCenterColor">#7E5102</color>
+    <color name="themeBlueColor">#E37500</color>
+
+    <color name="themeStartColorBerger">@color/bergerThemeColor</color>
+    <color name="themeCenterColorBerger">#8000AEEF</color>
+    <color name="themeEndColorBerger">@color/bergerThemeColor</color>
+
+    <color name="bergerThemeColor">#00AEEF</color>
+    <color name="appBackgroundColor">#3300AEEF</color>
+
+    <color name="bergerLogoColor1">@color/bergerThemeColor</color>
+    <color name="bergerLogoColor2">#9c1c20</color>
+    <color name="bergerLogoColor3">#1a83c6</color>
+    <color name="bergerLogoColor4">#109453</color>
+    <color name="bergerLogoColor5">#ffc20e</color>
+    <color name="bergerLogoColor6">#e77092</color>
+
+    <color name="blackLight">#4D000000</color>
+    <color name="whiteLight">#4DFFFFFF</color>
+
+    <color name="darkBlueBackground">#1d2c6f</color>
+
+    <color name="bottomBarColor">#4D000000</color>
+
+    <color name="buttonColor">#1F8545</color>
+    <color name="buttonDisabledColor">#808080</color>
+
+    <color name="textShadowColorHome">#000000</color>
+
+    <color name="toastBackgroundColor">#1d2c6f</color>
+
+    <color name="cardTextBackgroundColor">#00000000</color>
+
+    <color name="highlightSelectionColor">#000000</color>
+
+    <color name="visualizerCardBackground">@color/themeCenterColorBerger</color>
+    <color name="colorsCardBackground">#EF0000</color>
+    <color name="calculatorCardBackground">#EFC700</color>
+    <color name="productsCardBackground">#40EF00</color>
+    <color name="albumCardBackground">#00EFBF</color>
+    <color name="aboutUsCardBackground">#003CEF</color>
+    <color name="contactUsCardBackground">#C300EF</color>
+
+    <color name="color_yellow">#FFD400</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_blue">#0000FF</color>
+    <color name="color_orange">#FF6600</color>
+    <color name="color_green">#00FF00</color>
+    <color name="color_violet">#C800FF</color>
+    <color name="color_brown">#FF9900</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <color name="color_separator">#9f1416</color>
+
+    <color name="result_est_alert_color">#780B0D</color>
+
+    <color name="product_detail_color_divider_color">#808080</color>
+
+    <color name="button_start_color">#99E1FB</color>
+    <color name="button_end_color">@color/bergerThemeColor</color>
+
+    <color name="button_red_start_color">#FB9999</color>
+    <color name="button_red_end_color">#EF0000</color>
+
+    <color name="background_et_color">#C6F0FF</color>
+    <color name="start_color">#eae5df</color>
+    <color name="end_color">#f3fdf5</color>
+
+    <color name="contact_us_name_color">#035d63</color>
+    <color name="contact_us_heading_color">#035d63</color>
+    <color name="contact_us_text_color">#035d63</color>
+
+    <color name="about_us_text_color">#065a69</color>
+
+    <color name="grey">#808080</color>
+    <color name="hyperlink_color">#0000EE</color>
+
+<!--    <color name="side_menu_top_color_r">#ea0101</color>-->
+<!--    <color name="side_menu_bottom_color_r">#eae5df</color>-->
+<!--    <color name="side_menu_top_color_g">#01b99e</color>-->
+<!--    <color name="side_menu_bottom_color_g">#eae5df</color>-->
+<!--    <color name="side_menu_top_color_b">#2f60d4</color>-->
+<!--    <color name="side_menu_bottom_color_b">#eae5df</color>-->
+<!--    <color name="side_menu_top_color_y">#ffca01</color>-->
+<!--    <color name="side_menu_bottom_color_y">#eae5df</color>-->
+<!--    <color name="side_menu_top_color_p">#ffbfd6</color>-->
+<!--    <color name="side_menu_bottom_color_p">#eae5df</color>-->
+
+<!--    <color name="side_menu_top_color_r">#9c1c20</color>-->
+<!--    <color name="side_menu_bottom_color_r">#eae5df</color>-->
+<!--    <color name="side_menu_top_color_g">#109453</color>-->
+<!--    <color name="side_menu_bottom_color_g">#eae5df</color>-->
+<!--    <color name="side_menu_top_color_b">#1a83c6</color>-->
+<!--    <color name="side_menu_bottom_color_b">#eae5df</color>-->
+<!--    <color name="side_menu_top_color_y">#ffc20e</color>-->
+<!--    <color name="side_menu_bottom_color_y">#eae5df</color>-->
+<!--    <color name="side_menu_top_color_p">#e77092</color>-->
+<!--    <color name="side_menu_bottom_color_p">#eae5df</color>-->
+
+    <color name="side_menu_top_color_r">#A64B4E</color>
+    <color name="side_menu_bottom_color_r">#eae5df</color>
+    <color name="side_menu_top_color_g">#3F9F6F</color>
+    <color name="side_menu_bottom_color_g">#eae5df</color>
+    <color name="side_menu_top_color_b">@color/bergerThemeColor</color>
+    <color name="side_menu_bottom_color_b">#eae5df</color>
+    <color name="side_menu_top_color_y">#FBCD46</color>
+    <color name="side_menu_bottom_color_y">#eae5df</color>
+    <color name="side_menu_top_color_p">#e77092</color>
+    <color name="side_menu_bottom_color_p">#eae5df</color>
+
+<!--    <color name="side_menu_top_color_r">#9c1c20</color>-->
+<!--    <color name="side_menu_bottom_color_r">#918383</color>-->
+<!--    <color name="side_menu_top_color_g">#109453</color>-->
+<!--    <color name="side_menu_bottom_color_g">#7B8E85</color>-->
+<!--    <color name="side_menu_top_color_b">#1a83c6</color>-->
+<!--    <color name="side_menu_bottom_color_b">#ABB9C3</color>-->
+<!--    <color name="side_menu_top_color_y">#ffc20e</color>-->
+<!--    <color name="side_menu_bottom_color_y">#FAF4E3</color>-->
+<!--    <color name="side_menu_top_color_p">#e77092</color>-->
+<!--    <color name="side_menu_bottom_color_p">#EAD4DA</color>-->
+
+    <color name="product_details_heading_text_color">#151515</color>
+    <color name="product_details_text_color">#151515</color>
+</resources>
