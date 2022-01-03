@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_app_views.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_button.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_button_calculator_add.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_button_dark.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_button_disabled.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_button_painted.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_button_small_dark.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_button_small_light.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_dropdown_themed.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_et_round.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_et_round_red.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_logo.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_logo_left.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_logo_small.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_product_size.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_side_menu.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_side_menu_b.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_side_menu_p.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_side_menu_y.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_toolbar_1.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_toolbar_2.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_toolbar_3.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/background_toolbar_title.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/color_display_view.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/custom_toolbar_shadow.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/ic_delete.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/ic_launcher.xml" value="0.176" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1203125" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1203125" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/ic_save.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/ic_undo.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/ic_zoom_in.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/icon_masking_1.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/icon_masking_tape_v.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/icon_side_menu_option.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/place_holder_imagee.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/progress_bar_animation.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/drawable/side_nav_bar.xml" value="0.13802083333333334" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/layout/activity_colors.xml" value="0.121875" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/layout/activity_home.xml" value="0.152" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/layout/activity_paint.xml" value="0.121875" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/layout/activity_splash.xml" value="0.1068840579710145" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/layout/custom_shadow_bottom.xml" value="0.121875" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/layout/custom_shadow_top.xml" value="0.121875" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/layout/custom_side_menu.xml" value="0.176" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/layout/single_contact_us_list_item.xml" value="0.1" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/layout/single_phone_list_item.xml" value="0.121875" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1203125" />
+        <entry key="..\:/OfficeGit/Berger_Xpress_Visualizer/Berger_Visualizer/Berger Visualizer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1203125" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

@@ -29,16 +29,14 @@
     <ImageView
         android:id="@+id/header_image"
         android:layout_width="200dp"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:contentDescription="@string/nav_header_desc"
         android:padding="@dimen/nav_header_vertical_spacing"
-        android:layout_marginEnd="10dp"
         app:srcCompat="@drawable/berger_logo_flat"
-        app:tint="@color/white"
+        android:background="@drawable/background_logo_left"
         app:layout_constraintTop_toTopOf="@id/header_guideline"
         app:layout_constraintBottom_toBottomOf="@id/header_guideline"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <ScrollView
         android:layout_width="match_parent"

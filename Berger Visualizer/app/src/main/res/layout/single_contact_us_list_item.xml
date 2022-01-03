@@ -103,7 +103,8 @@
                 app:layout_constraintTop_toTopOf="@id/address_label"
                 app:layout_constraintEnd_toEndOf="@id/end_margin_guideline"
                 android:textSize="15sp"
-                android:textColor="@color/contact_us_text_color"/>
+                android:textColor="@color/hyperlink_color"
+                android:textStyle="italic"/>
 
             <TextView
                 android:id="@+id/phone_label"

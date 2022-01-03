@@ -179,7 +179,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener, NavigationView.O
         menuItem3.itemLabel = resources.getString(R.string.side_menu_products)
 
         val menuItem4 = SideMenuItem()
-        menuItem4.itemIcon = R.drawable.background_card_calculate_paint
+        menuItem4.itemIcon = R.drawable.background_side_menu_calculate_paint
         menuItem4.itemLabel = resources.getString(R.string.side_menu_calculator)
 
         val menuItem5 = SideMenuItem()

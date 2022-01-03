@@ -38,15 +38,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/berger_app_logo_5"
+        android:icon="@mipmap/berger_app_logo"
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
-        android:roundIcon="@mipmap/berger_app_logo_5"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPaintApp"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.berger.bergerXpressVisualiserPk.activities.MyIdeaDetailsActivity"/>
-        <activity android:name="com.berger.bergerXpressVisualiserPk.activities.ViewImageActivity" />
+        <activity
+            android:name="com.berger.bergerXpressVisualiserPk.activities.MyIdeaDetailsActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.berger.bergerXpressVisualiserPk.activities.ViewImageActivity"
+            android:exported="false"/>
         <activity android:name="com.berger.bergerXpressVisualiserPk.activities.MyIdeasActivity" />
         <activity android:name="com.berger.bergerXpressVisualiserPk.activities.ColorShadesDisplayActivity" />
         <activity android:name="com.berger.bergerXpressVisualiserPk.activities.DealerLocatorActivity" />
@@ -63,9 +67,6 @@
             android:name="com.berger.bergerXpressVisualiserPk.activities.AboutUsActivity"
             android:screenOrientation="sensorPortrait" />
         <activity
-            android:name="com.berger.bergerXpressVisualiserPk.activities.ColorsActivity"
-            android:screenOrientation="sensorPortrait" />
-        <activity
             android:name="com.berger.bergerXpressVisualiserPk.activities.HomeActivity"
             android:label="@string/title_activity_home"
             android:screenOrientation="sensorPortrait"
@@ -76,7 +77,8 @@
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.berger.bergerXpressVisualiserPk.activities.SplashActivity"
-            android:screenOrientation="sensorPortrait">
+            android:screenOrientation="sensorPortrait"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
