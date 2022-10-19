@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Berger Xpress Visualiser Pk</string>
+    <string name="app_name">Berger Xpress Visualizer Pk</string>
 
-    <string name="camera_file_provider">com.berger.bergerXpressVisualiserPk.provider</string>
+    <string name="camera_file_provider">com.berger.bergerXpressVisualizerPk.provider</string>
 
     <string name="berger_theme_color_hex" tools:ignore="ReferenceType">@color/bergerThemeColor</string>
 

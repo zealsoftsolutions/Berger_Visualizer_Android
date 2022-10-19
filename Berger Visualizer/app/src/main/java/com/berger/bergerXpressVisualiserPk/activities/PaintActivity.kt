@@ -51,15 +51,6 @@ import org.opencv.core.Core
 import org.opencv.core.Scalar
 
 
-
-
-
-
-
-
-
-
-
 class PaintActivity : AppCompatActivity(), View.OnClickListener, View.OnTouchListener {
 
     companion object {
@@ -227,7 +218,7 @@ class PaintActivity : AppCompatActivity(), View.OnClickListener, View.OnTouchLis
                     selectedShade = myIdea.shadesUsed?.get(myIdea.shadesUsed?.size!!-1)
             }
 
-            getPoints()
+            getMaskingPoints()
             loadFromMyIdeas(myIdea.imageUrl)
             displayMasking()
         }
@@ -2455,7 +2446,7 @@ class PaintActivity : AppCompatActivity(), View.OnClickListener, View.OnTouchLis
         showToast(resources.getString(R.string.paint_toast_masking_start))
     }
 
-    private fun getPoints(){
+    private fun getMaskingPoints(){
         if(Constants.points != null) {
 
             var pointCV = MaskingPoint()
@@ -2476,7 +2467,7 @@ class PaintActivity : AppCompatActivity(), View.OnClickListener, View.OnTouchLis
 
         toast?.cancel()
 
-        getPoints()
+        getMaskingPoints()
 
         if (clearMasking) {
             maskingTapes = ArrayList()

@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 public class Constants {
 
+//    public static final String SERVER_IP = "https://api.webpharmed.com/";         // Production Server
     public static final String SERVER_IP = "http://3.15.41.136/";         // Test Server
 //    public static final String SERVER_IP = "http://10.2.1.79:3002/";         // Local Server
 
