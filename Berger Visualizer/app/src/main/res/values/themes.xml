@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyPaintApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/themeStartColorBerger</item>
+        <item name="colorPrimaryVariant">@color/themeStartColorBerger</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/themeStartColorBerger</item>
+        <item name="colorSecondaryVariant">@color/themeStartColorBerger</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="my_progress_bar_circle">
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_animation</item>
+        <item name="android:minWidth">30dp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:maxWidth">1000dp</item>
+        <item name="android:maxHeight">1000dp</item>
+    </style>
+
+    <!--Theme of Custom Dialogues-->
+    <style name="CustomDialog" parent="Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="android:windowAnimationStyle">@style/CustomDialogAnimation</item>
+    </style>
+
+    <!-- Custom Dialogues Animation-->
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/stay_still</item>
+        <item name="android:windowExitAnimation">@anim/stay_still</item>
+    </style>
+
+    <style name="Theme.MyPaintApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MyPaintApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyPaintApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

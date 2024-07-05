@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_height">120dp</dimen>
+    <dimen name="corner_radius_card_toolbar">10dp</dimen>
+    <dimen name="corner_radius_card_side_menu">18dp</dimen>
+    <dimen name="corner_radius_card_home">20dp</dimen>
+    <dimen name="corner_radius_card_calculator">10dp</dimen>
+    <dimen name="corner_radius_card">5dp</dimen>
+    <dimen name="corner_radius_card_shades">25dp</dimen>
+    <dimen name="heading_text_size_home">18sp</dimen>
+    <dimen name="padding_text_home">10dp</dimen>
+    <dimen name="padding_text_start_home">15dp</dimen>
+    <dimen name="padding_text_start_end_home">5dp</dimen>
+    <dimen name="padding_text_end_home">15dp</dimen>
+    <dimen name="padding_text_start">10dp</dimen>
+    <dimen name="padding_text_end">10dp</dimen>
+    <dimen name="elevation_home_card">3dp</dimen>
+    <dimen name="elevation_side_menu_card">3dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="text_shadow_radius_home">10dp</dimen>
+    <dimen name="paint_buttons_size">40dp</dimen>
+    <dimen name="paint_buttons_text_size">12sp</dimen>
+    <dimen name="et_height">40dp</dimen>
+    <dimen name="et_padding_start">10dp</dimen>
+    <dimen name="et_margin_top">10dp</dimen>
+    <dimen name="et_padding_end">40dp</dimen>
+    <dimen name="product_details_heading_text_size">18sp</dimen>
+    <dimen name="product_details_heading_top_margin">25dp</dimen>
+    <dimen name="product_details_text_top_margin">10dp</dimen>
+    <dimen name="product_details_text_size">16sp</dimen>
+    <dimen name="size_text_products_list">15sp</dimen>
+</resources>

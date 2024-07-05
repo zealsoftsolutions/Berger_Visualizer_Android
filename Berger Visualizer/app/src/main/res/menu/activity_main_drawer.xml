@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_visualizer"
+            android:icon="@drawable/icon_side_menu_option_1"
+            android:title="@string/side_menu_visualizer"/>
+
+        <item
+            android:id="@+id/nav_colors"
+            android:icon="@drawable/icon_side_menu_option_1"
+            android:title="@string/side_menu_colors"/>
+
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/icon_side_menu_option"
+            android:title="@string/side_menu_calculator"/>
+
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/icon_side_menu_option"
+            android:title="@string/side_menu_products"/>
+
+        <item
+            android:id="@+id/nav_album"
+            android:icon="@drawable/icon_side_menu_option"
+            android:title="@string/side_menu_album"/>
+        <item
+            android:id="@+id/nav_inspirational"
+            android:icon="@drawable/icon_side_menu_option"
+            android:title="@string/side_menu_inspirational"/>
+    </group>
+
+    <item android:id="@+id/emergency_title"
+        android:title="About Berger">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/icon_side_menu_option"
+                android:title="@string/side_menu_about_us"/>
+
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/icon_side_menu_option"
+                android:title="@string/side_menu_contact_us"/>
+        </menu>
+    </item>
+</menu>

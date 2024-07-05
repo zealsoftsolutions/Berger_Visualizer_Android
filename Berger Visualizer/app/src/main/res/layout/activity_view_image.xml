@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activities.ViewImageActivity">
+
+    <ImageView
+        android:id="@+id/zoomable_image_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/close"
+        app:layout_constraintBottom_toTopOf="@id/zoom_in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"/>
+
+    <WebView
+        android:id="@+id/zoomable_image_web_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/close"
+        app:layout_constraintBottom_toTopOf="@id/zoom_in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/black"
+        android:visibility="visible"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="@id/zoomable_image_view"
+        app:layout_constraintBottom_toBottomOf="@id/zoomable_image_view"
+        app:layout_constraintEnd_toEndOf="@id/zoomable_image_view"
+        app:layout_constraintStart_toStartOf="@id/zoomable_image_view"
+        android:layout_margin="20dp"
+        style="@style/my_progress_bar_circle"
+        android:alpha="0.8"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"/>
+
+
+    <ImageView
+        android:id="@+id/zoom_out"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/zoom_in"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_zoom_out"
+        app:tint="@color/bergerThemeColor"/>
+
+    <ImageView
+        android:id="@+id/zoom_in"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/zoom_out"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_zoom_in"
+        app:tint="@color/bergerThemeColor"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

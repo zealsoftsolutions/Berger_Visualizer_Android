@@ -1,0 +1,13 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="org.opencv"
+5    android:versionCode="34130"
+6    android:versionName="3.4.13" > <!-- <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="32" /> -->
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
+10
+11</manifest>
