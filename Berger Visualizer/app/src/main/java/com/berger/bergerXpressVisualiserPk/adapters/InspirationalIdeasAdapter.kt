@@ -61,20 +61,21 @@ class InspirationalIdeasAdapter  (val activity: Activity, private val images: Li
                             .override(Target.SIZE_ORIGINAL)
                     )
                     .listener(object : RequestListener<Bitmap> {
+
                         override fun onLoadFailed(
                             e: GlideException?,
                             model: Any?,
-                            target: com.bumptech.glide.request.target.Target<Bitmap>?,
+                            target: Target<Bitmap>,
                             isFirstResource: Boolean
                         ): Boolean {
                             return false
                         }
 
                         override fun onResourceReady(
-                            resource: Bitmap?,
-                            model: Any?,
-                            target: com.bumptech.glide.request.target.Target<Bitmap>?,
-                            dataSource: DataSource?,
+                            resource: Bitmap,
+                            model: Any,
+                            target: Target<Bitmap>?,
+                            dataSource: DataSource,
                             isFirstResource: Boolean
                         ): Boolean {
                             images[p1].savedImageUrl = Utills.bitmapToString(resource)

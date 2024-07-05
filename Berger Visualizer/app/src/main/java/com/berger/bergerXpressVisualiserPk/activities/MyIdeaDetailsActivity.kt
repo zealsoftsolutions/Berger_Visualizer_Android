@@ -23,6 +23,7 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
+import com.bumptech.glide.request.target.Target
 import com.bumptech.glide.signature.MediaStoreSignature
 import java.io.File
 import java.lang.Exception
@@ -97,17 +98,20 @@ class MyIdeaDetailsActivity : AppCompatActivity(), View.OnClickListener {
                     .load(myIdea?.imageUrl)
                     .listener(object : RequestListener<Drawable> {
                         override fun onLoadFailed(
-                            e: GlideException?, model: Any?,
-                            target: com.bumptech.glide.request.target.Target<Drawable>?,
+                            e: GlideException?,
+                            model: Any?,
+                            target: Target<Drawable>,
                             isFirstResource: Boolean
                         ): Boolean {
                             return false
                         }
 
                         override fun onResourceReady(
-                            resource: Drawable?, model: Any?,
-                            target: com.bumptech.glide.request.target.Target<Drawable>?,
-                            dataSource: DataSource?, isFirstResource: Boolean
+                            resource: Drawable,
+                            model: Any,
+                            target: Target<Drawable>?,
+                            dataSource: DataSource,
+                            isFirstResource: Boolean
                         ): Boolean {
                             return false
                         }

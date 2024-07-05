@@ -1,31 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:2:1-9:12
-INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:2:1-9:12
-INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:2:1-9:12
+ADDED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:2:1-8:12
+INJECTED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:4:5-25
-		INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
-		INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
+		INJECTED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:6:7-35
+		ADDED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:5:7-35
 	xmlns:tools
-		ADDED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:3:5-51
+		ADDED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:5:7-34
+		ADDED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml:4:5-32
 uses-sdk
-INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
-INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
-INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
-INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
+INJECTED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
+INJECTED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
-		ADDED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
-		INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
+		INJECTED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
-		ADDED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
-		INJECTED from E:\OfficeGit\Berger_Xpress_Visualizer\Berger_Visualizer\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
+		INJECTED from E:\OfficeGitHub\Berger Visualizer\Berger_Visualizer_Android\Berger Visualizer\openCVLibrary3413\src\main\AndroidManifest.xml
