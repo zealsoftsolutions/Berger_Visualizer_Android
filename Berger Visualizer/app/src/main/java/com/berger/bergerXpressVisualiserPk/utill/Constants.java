@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Constants {
 
 //    public static final String SERVER_IP = "https://api.webpharmed.com/";         // Production Server
-    public static final String SERVER_IP = "http://3.15.41.136/";         // Test Server
+    public static final String SERVER_IP = "http://3.140.200.211:3002/";         // Test Server
 //    public static final String SERVER_IP = "http://10.2.1.79:3002/";         // Local Server
 
     public static final String COLOR_BLACK = "black";
