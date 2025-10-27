@@ -313,7 +313,6 @@ class PaintActivity : AppCompatActivity(), View.OnClickListener, View.OnTouchLis
         loading = findViewById(R.id.loading)
         Glide
             .with(this)
-            .asGif()
             .load(R.drawable.berger_loading)
             .into(loading)
 

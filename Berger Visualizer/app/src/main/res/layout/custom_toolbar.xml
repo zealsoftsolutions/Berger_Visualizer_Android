@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="@dimen/toolbar_height"
@@ -17,22 +18,24 @@
         android:id="@+id/toolbar_background"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/background_bottom_margin"
+        android:scaleType="fitXY"
         android:src="@drawable/background_toolbar"
-        android:scaleType="fitXY"/>
+        app:layout_constraintBottom_toBottomOf="@id/background_bottom_margin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:tint="@color/bergerThemeColor"
+        tools:layout_editor_absoluteX="-74dp" />
 
     <ImageView
         android:id="@+id/toolbar_logo"
         android:layout_width="130dp"
-        android:layout_height="25dp"
+        android:layout_height="40dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/title_card"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="5dp"
-        android:src="@drawable/berger_logo_flat"
-        android:background="@drawable/background_logo_small"/>
+        android:src="@drawable/berger_logo_flat_white"/>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/title_card"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="toolbar_height">120dp</dimen>
+    <dimen name="toolbar_height">130dp</dimen>
     <dimen name="corner_radius_card_toolbar">10dp</dimen>
     <dimen name="corner_radius_card_side_menu">18dp</dimen>
     <dimen name="corner_radius_card_home">20dp</dimen>

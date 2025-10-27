@@ -37,7 +37,7 @@ class InspirationalIdeasActivity : AppCompatActivity(), View.OnClickListener, Sw
 
     private lateinit var webView: WebView
     private lateinit var refresh: SwipeRefreshLayout
-    private val urlDealer = "http://berger.com.pk/symphony-of-colors/colors-of-life/"
+    private val urlDealer = "https://berger.com.pk/decorative-paints"
 
     private var images: ArrayList<Int>? = null
     private var inspirationalIdeas: ArrayList<Idea>? = null
@@ -160,7 +160,7 @@ class InspirationalIdeasActivity : AppCompatActivity(), View.OnClickListener, Sw
         webView.loadUrl(urlDealer)
         webView.webViewClient = object : WebViewClient() {
             override fun onPageStarted(view: WebView, url: String, favicon: Bitmap?) {
-                if (!url.contains("http://berger.com.pk/")) {
+                if (!url.contains("https://berger.com.pk/")) {
                     view.stopLoading()
                     view.goBack()
                 }

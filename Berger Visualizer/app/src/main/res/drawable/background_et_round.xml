@@ -22,11 +22,11 @@
         android:end="1dp">
         <shape >
 
-<!--            <solid-->
-<!--                android:color="@color/button_start_color"/>-->
-            <gradient
-                android:startColor="@color/start_color"
-                android:endColor="@color/end_color"/>
+            <solid android:color="@color/views_background_color"/>
+
+<!--            <gradient-->
+<!--                android:startColor="@color/start_color"-->
+<!--                android:endColor="@color/end_color"/>-->
 
             <corners android:radius="10dp" />
         </shape>
