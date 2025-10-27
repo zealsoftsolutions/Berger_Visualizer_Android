@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_app"
+    android:background="@color/appBackgroundColor"
     android:focusableInTouchMode="true"
     tools:context=".activities.CalculatorActivity">
 
@@ -798,6 +798,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/calculator_button_clear"
         android:textSize="18sp"
+        android:textColor="@color/white"
         android:background="@drawable/background_button_red"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="5dp"
@@ -814,6 +815,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/calculator_button_calculate"
         android:textSize="18sp"
+        android:textColor="@color/white"
         android:background="@drawable/background_button_dark"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="10dp"

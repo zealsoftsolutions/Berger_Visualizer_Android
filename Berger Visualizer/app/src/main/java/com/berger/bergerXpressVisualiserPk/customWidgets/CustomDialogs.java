@@ -58,7 +58,6 @@ public class CustomDialogs {
 
             Glide
                     .with(context)
-                    .asGif()
                     .load(R.drawable.berger_loading)
                     .diskCacheStrategy(DiskCacheStrategy.NONE)
                     .signature(new MediaStoreSignature("", Calendar.getInstance().getTime().getTime(), 0))

@@ -8,16 +8,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="themeGreenColor">#492600</color>
-    <color name="themeCenterColor">#7E5102</color>
-    <color name="themeBlueColor">#E37500</color>
-
     <color name="themeStartColorBerger">@color/bergerThemeColor</color>
-    <color name="themeCenterColorBerger">#8000AEEF</color>
+    <color name="themeCenterColorBerger">#80193762</color>
     <color name="themeEndColorBerger">@color/bergerThemeColor</color>
 
-    <color name="bergerThemeColor">#00AEEF</color>
-    <color name="appBackgroundColor">#3300AEEF</color>
+    <color name="bergerThemeColor">#193762</color>
+    <color name="bergerThemeColorRed">#e30613</color>
+    <color name="appBackgroundColor">#FFFFFF</color>
 
     <color name="bergerLogoColor1">@color/bergerThemeColor</color>
     <color name="bergerLogoColor2">#9c1c20</color>
@@ -70,10 +67,12 @@
     <color name="button_start_color">#99E1FB</color>
     <color name="button_end_color">@color/bergerThemeColor</color>
 
+    <color name="button_red_color">#e30613</color>
     <color name="button_red_start_color">#FB9999</color>
     <color name="button_red_end_color">#EF0000</color>
 
     <color name="background_et_color">#C6F0FF</color>
+    <color name="views_background_color">#EFEFEF</color>
     <color name="start_color">#eae5df</color>
     <color name="end_color">#f3fdf5</color>
 
@@ -108,7 +107,7 @@
 <!--    <color name="side_menu_top_color_p">#e77092</color>-->
 <!--    <color name="side_menu_bottom_color_p">#eae5df</color>-->
 
-    <color name="side_menu_top_color_r">#A64B4E</color>
+    <color name="side_menu_top_color_r">#e30613</color>
     <color name="side_menu_bottom_color_r">#eae5df</color>
     <color name="side_menu_top_color_g">#3F9F6F</color>
     <color name="side_menu_bottom_color_g">#eae5df</color>

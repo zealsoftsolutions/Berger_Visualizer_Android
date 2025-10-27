@@ -12,6 +12,7 @@
         android:layout_margin="5dp"
         app:cardElevation="@dimen/elevation_home_card"
         app:cardCornerRadius="@dimen/corner_radius_card_home"
+        app:cardBackgroundColor="@color/views_background_color"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,8 +21,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/product_item"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/background_toolbar_title">
+            android:layout_height="match_parent">
 
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/top_margin_guideline"
