@@ -1,3 +1,0 @@
-include ':app'
-rootProject.name = "BergerVisualizer"
-include ':openCVLibrary3413'
